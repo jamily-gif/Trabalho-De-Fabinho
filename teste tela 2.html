@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste tela 2</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box; 
+      }
+      body {
+        background-color: #7b578b;
+      }
+      #cima2 {
+        background-color: #7b578b;
+        padding: 50px;
+        text-align: center;
+        font-family: Georgia;
+        height: 80px;
+        width: 100%;
+        color: white;
+        font-size: 2rem;
+        overflow: hidden;
+      }
+      #main {
+        background-color: rgb(222, 201, 241);
+        text-align: center;
+        padding: 50px;
+        color: black;
+        width: 100%;
+        min-height: calc(100vh - 80px - 90px);
+        overflow: hidden;
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+      }
+      img {
+        margin: 20px;
+        height: 180px;
+        width: 250px;
+      }
+      #footer {
+        background-color: rgb(123, 87, 139);
+        padding: 20px;
+        text-align: center;
+       
+        color: white;
+        width: 100%; 
+       
+        margin: 0;
+      }
+      .container-imagem-tabela {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        width: 250px; 
+      }
+      img {
+        vertical-align: top;
+        margin: 20px;
+        width: 350px;
+        height: 250px;
+        border-radius: 20px;
+      }
+      table {
+        border: black solid 3px;
+        border-radius: 20px;
+        padding: 5px;
+        margin-top: 50px;
+        display: flex;
+        width: 350px;
+      }
+      .classe {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        gap: 100px;
+        justify-content: center;
+        align-items: baseline;
+      }
+      tr {
+        text-align: left;
+      }
+       .meu-botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:rgb(66,1,61);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.meu-botao:hover {
+  background-color: #602466;
+}
+.meu-botao button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+th    {
+  font-size: 23px;
+}
+    </style>
+  </head>
+  <body>
+    <div id="cima2">
+      <center>
+        Amiguinhos que temos para<span style="color:#FFB6C1;"> você adotar</span> :
+      </center>
+    </div>
+    <div id="main">
+      <div class="classe">
+        <div class="container-imagem-tabela">
+          <img src="https://amazonasatual.com.br/wp-content/uploads/2024/01/Vira-Lata-caramelo.jpg">
+          <table>
+            <tr >
+              <th>Raça</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Pastor Alemão</td>
+              <td> 6 </td>
+              <td>Dentinho</td>
+              <td>Macho</td>
+              <td>Pernambuco</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container-imagem-tabela">
+          <img src="https://static.wixstatic.com/media/e2e4ef_0b360155ffdd45858ac4204bdf67d053~mv2.jpeg/v1/fill/w_648,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Maria%2520-%2520cachorro%2520para%2520adocao%2520-.jpeg">
+          <table>
+            <tr>
+              <th>Raça</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Labrador</td>
+              <td> 5 </td>
+              <td>boto</td>
+              <td>Macho</td>
+              <td>Amazonas</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container-imagem-tabela">
+          <img src="https://www.patasdacasa.com.br/sites/default/files/styles/gallery_crop/public/images-carrossel/23531-o-chow-chow-preto-tem-uma-aparencia-unic-orig-1.webp?itok=1Q6p23ox">
+          <table>
+            <tr>
+              <th>Espécie</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Chow Chow</td>
+              <td> 4 </td>
+              <td>Lulu</td>
+              <td>Fêmea</td>
+              <td>Rio Grande do Norte</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container-imagem-tabela">
+          <img src="https://odia.ig.com.br/_midias/jpg/2024/04/11/gato_vira_lata-32537977.jpg">
+          <table>
+            <tr>
+              <th>Raça</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Gato bicolor</td>
+              <td> 3 </td>
+              <td>Dede</td>
+              <td>Macho</td>
+              <td>São Paulo</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container-imagem-tabela">
+          <img src="https://adotar.com.br/upload/2025-06/animais_imagem1237237.jpg?w=300&format=webp">
+          <table>
+            <tr>
+              <th>Raça</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Gato bicolor</td>
+              <td> 2 </td>
+              <td>Bart</td>
+              <td>Macho</td>
+              <td>Paraíba</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container-imagem-tabela">
+          <img src="https://adotar.com.br/upload/2024-02/animais_imagem1094431.jpg?w=700&format=webp">
+          <table>
+            <tr>
+              <th>Raça</th>
+              <th>Idade</th>
+              <th>Nome</th>
+              <th>Sexo</th>
+              <th>Estado</th>
+            </tr>
+            <tr>
+              <td>Gato bicolor</td>
+              <td> 2 </td>
+              <td>Farofa</td>
+              <td>Macho</td>
+              <td>Paraíba</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <center>
+        <a href="paloma2.html" class="meu-botao">
+          <button>Confirma</button>
+        </a>
+        <br><br>
+        <a href="teste pagina1.html" class="meu-botao">
+          <button>Voltar para o início</button>
+          
+        </a>
+      </center>
+    </div>
+  </body>
+</html>
